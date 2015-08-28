@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>async</string>
+	<string>disgm</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>TopLevel</string>
@@ -20,6 +20,8 @@
 	<string>295D506E-8BFB-41ED-B11F-5D32F3F910A6</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>global queue finished with main queue</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>dispatch_async</string>
 	<key>IDECodeSnippetUserSnippet</key>
