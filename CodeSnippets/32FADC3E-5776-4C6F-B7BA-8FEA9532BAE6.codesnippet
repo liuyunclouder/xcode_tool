@@ -3,21 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>de</string>
+	<string>vcinit</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>debugMethod();</string>
+	<string>- (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+        &lt;#continue#&gt;
+    }
+    
+    return self;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>24C40543-FD02-442F-84F9-7D7EBAD89F21</string>
+	<string>32FADC3E-5776-4C6F-B7BA-8FEA9532BAE6</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>debug method</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>debug method</string>
+	<string>view controller init method</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
